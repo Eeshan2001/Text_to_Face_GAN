@@ -3,7 +3,7 @@ The idea of the project is to in-paint the missing part of the face and address 
 
 Please find the attached PPT and Blackbook for detailed description and understanding of the project.
 
-Our project paper was published in springer - https://link.springer.com/chapter/10.1007/978-981-15-3242-9_50
+<!-- Our project paper was published in springer - https://link.springer.com/chapter/10.1007/978-981-15-3242-9_50 --->
 
 Dataset Link - 
 https://www.kaggle.com/zuozhaorui/celeba
