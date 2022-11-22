@@ -14,3 +14,14 @@ To run the FaceIT.ipynb -
 3. Upload the code file and run every cell one after the other while waiting for the previous cell to execute.
 4. Upload the dataset before executing the file according to the path mentioned in the second cell of the code file.
 5. View the output in the custom_test_output folder.
+
+## Citation: 
+```
+    @inproceedings{liu2015faceattributes,
+    title = {Deep Learning Face Attributes in the Wild},
+    author = {Liu, Ziwei and Luo, Ping and Wang, Xiaogang and Tang, Xiaoou},
+    booktitle = {Proceedings of International Conference on Computer Vision (ICCV)},
+    month = {December},
+    year = {2015} 
+  } 
+  ```
