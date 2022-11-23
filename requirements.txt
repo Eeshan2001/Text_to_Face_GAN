@@ -1,0 +1,35 @@
+bleach==1.5.0
+certifi==2020.12.5
+cloudpickle @ file:///home/conda/feedstock_root/build_artifacts/cloudpickle_1598400192773/work
+cycler==0.10.0
+cytoolz==0.11.0
+dask @ file:///home/conda/feedstock_root/build_artifacts/dask-core_1614995065708/work
+decorator==4.4.2
+enum34==1.1.10
+html5lib==0.9999999
+imageio @ file:///home/conda/feedstock_root/build_artifacts/imageio_1594044661732/work
+importlib-metadata==3.7.2
+kiwisolver @ file:///D:/bld/kiwisolver_1610099971815/work
+Markdown==3.3.4
+matplotlib @ file:///D:/bld/matplotlib-suite_1611858808344/work
+mkl-service==2.3.0
+networkx @ file:///home/conda/feedstock_root/build_artifacts/networkx_1598210780226/work
+numpy @ file:///D:/bld/numpy_1610324703282/work
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+Pillow @ file:///D:/bld/pillow_1615244155367/work
+protobuf==3.15.5
+pyparsing==2.4.7
+python-dateutil==2.8.1
+PyWavelets @ file:///D:/bld/pywavelets_1607290980702/work
+PyYAML==5.4.1
+scikit-image==0.16.2
+scipy==1.0.1
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
+tensorflow==1.4.0
+tensorflow-tensorboard==0.4.0
+toolz @ file:///home/conda/feedstock_root/build_artifacts/toolz_1600973991856/work
+tornado @ file:///D:/bld/tornado_1610094881553/work
+typing-extensions==3.7.4.3
+Werkzeug==1.0.1
+wincertstore==0.2
+zipp==3.4.1
