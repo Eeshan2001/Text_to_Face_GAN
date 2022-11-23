@@ -1,0 +1,2 @@
+Dataset link: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+Download the dataset and store it in this folder.
