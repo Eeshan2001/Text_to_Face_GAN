@@ -161,7 +161,7 @@ class ACGAN:
         import random
         from PIL import Image, ImageFilter
         import time
-        inp = txt.split(',')
+        inp = txt.split(',')    
         keys = []
         for i in inp:
             i = i.strip().lower()
@@ -172,9 +172,11 @@ class ACGAN:
                 else:
                     k += c
             keys.append(k)
+        print("ACGAN Key beforetokenize: ", keys)
         for i in range(len(keys) - 1, -1, -1):
             if keys[i] not in label:
                 keys.pop(i)
+        print("ACGAN Key after tokenize: ", keys)       
         if (keys == []):
             print("Please Enter Valid Facial Description")
             return -1
@@ -182,7 +184,7 @@ class ACGAN:
         max = 0
         f = open("src/create_data_features/attributes.txt", "r")
         print("Generating an image using ACGAN....")
-        for i in range(1, 202600):
+        for i in range(1, 20001):
             sen = f.readline()
             l = sen.split()
             for j in range(1, len(l)):
@@ -192,6 +194,7 @@ class ACGAN:
                     l[j] = 0
             num = i
             male = l[21]
+          
             female = 0
             if (male != 1):
                 female = 1
@@ -356,21 +359,21 @@ class ACGAN:
                 max = count
                 matches = []
                 matches.append(label['num'])
-
+    
         if (matches == []):
             print("Your identifications are impossible")
         else:
             print("Converting the generated image into higher resolution image using PROGAN....")
             time.sleep(5)
             choice = random.choice(matches)
-            img = Image.open('dataset/img_align_celeba/' + str(choice) + '.png')
+            img = Image.open('Text_to_Face_GAN-main/dataset/img_align_celeba/' + str(choice) + '.png')
             img = img.filter(ImageFilter.BoxBlur(1))
             img = img.resize((128, 128), Image.ANTIALIAS)
-            img.save('results/PROGAN_out.png', "PNG", quality=40)
-            img = Image.open('dataset/img_align_celeba/' + str(choice) + '.png')
+            img.save('Text_to_Face_GAN-main/results/PROGAN_out.png', "PNG", quality=40)
+            img = Image.open('Text_to_Face_GAN-main/dataset/img_align_celeba/' + str(choice) + '.png')
             img = img.resize((64, 64), Image.ANTIALIAS)
             img = img.filter(ImageFilter.BoxBlur(1))
-            img.save('results/ACGAN_out.png', "PNG", quality=90)
+            img.save('Text_to_Face_GAN-main/results/ACGAN_out.png', "PNG", quality=90)
             print("Image Generated Successfully")
             return 1
 
