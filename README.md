@@ -1,7 +1,7 @@
 # Final-Year-Project
 Text Description To Realistic Face Synthesis Using VQGAN<br><br>
 Dataset link: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html<br>
-Download the dataset and store it in dataset folder.<br><br>
+
 To install requirements: pip install -r requirements.txt<br><br>
 
 This project is developed by a team of 4 members:<br>
