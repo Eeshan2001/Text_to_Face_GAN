@@ -2,7 +2,8 @@
 Text Description To Realistic Face Synthesis Using VQGAN<br><br>
 Dataset link: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html<br>
 
-## Checkout our research Paper: [Automatic Synthesis of Realistic images from text using GANs](https://github.com/Eeshan2001/Text_to_Face_GAN/blob/main/Automatic%20Synthesis%20of%20Realistic%20images%20from%20text%20using%20GANs.pdf)
+<!-- ## Checkout our research Paper: [Automatic Synthesis of Realistic images from text using GANs](https://github.com/Eeshan2001/Text_to_Face_GAN/blob/main/Automatic%20Synthesis%20of%20Realistic%20images%20from%20text%20using%20GANs.pdf)
+-->
 To install requirements: pip install -r requirements.txt<br><br>
 
 This project is developed by a team of 4 members:<br>
